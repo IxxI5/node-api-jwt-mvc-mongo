@@ -29,11 +29,11 @@ _This document describes the steps of developing a simple Web API in NodeJS from
 
 - **users/register** [POST]: creates a new user document in Mongo database
 
-- **users/login** [POST]: user
+- **users/login** [POST]: user (sends the access and refresh tokens stored in seperate httpOnly cookies)
 
-- **users/logout** [POST]: loggedin user
+- **users/logout** [POST]: loggedin user (access and refresh tokens are forced to expire (creation of expired tokens))
 
-- **users/refresh** [POST]: access token
+- **users/refresh** [POST]: access token (sends a new access token created from an existing refresh token)
 
 - **users/** [GET]: actual loggedin user
 
