@@ -816,3 +816,20 @@ MongoDB Database Server (MongoDB) is Running...
 
 API Server (Port 8000) is Running...
 ```
+
+```python
+"""
+Node WEB API Endpoints
+e.g. http://localhost:8000/users
+
+POST:   users/register
+POST:   users/login
+POST:   users/logout
+POST:   users/refresh
+GET:    users/
+GET:    incidents/
+GET:    incidents/:userId
+POST:   incidents/
+DELETE: incident/:incId
+"""
+```
