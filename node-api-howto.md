@@ -178,7 +178,7 @@ api
 **VS Code Command Prompt Terminal**
 
 ```
-npm install
+npm install bcrypt colors cookie-parser cors dotenv express jsonwebtoken mongoose@6.11.2 mongoose-sequence nodemon
 ```
 
 **Resulted package.json**
